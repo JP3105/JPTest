@@ -1,5 +1,5 @@
 $schema: "1.0"
-name: "JP Test TC Image"
+name: "JP-Test-TC-Image"
 # Using the "Windows 11 Enterprise 24H2" image as the base
 image: microsoftwindowsdesktop_windows-ent-cpc_win11-24H2-ent-cpc
 description: "This definition is a test of the Team Customisation feature"
