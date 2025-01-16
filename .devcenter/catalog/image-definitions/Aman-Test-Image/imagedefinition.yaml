@@ -5,8 +5,7 @@ image: microsoftwindowsdesktop_windows-ent-cpc_win11-23h2-ent-cpc
 description: "This definition is a test of the Team Customisation feature"
 
 tasks:
- 
-  - name: ~/winget
+  - name: winget
     description: Install Visual Studio Code
     parameters:
       package:  Microsoft.VisualStudioCode
