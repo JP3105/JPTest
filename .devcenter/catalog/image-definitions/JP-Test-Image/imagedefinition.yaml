@@ -4,13 +4,13 @@ name: "JP-Test-TC-Image"
 image: microsoftwindowsdesktop_windows-ent-cpc_win11-24H2-ent-cpc
 description: "This definition is a test of the Team Customisation feature"
 
-#tasks:
-# 
-#  - name: ~/winget
-#    description: Install Visual Studio Code
-#    parameters:
-#      package:  Microsoft.VisualStudioCode
-#
+tasks:
+ 
+  - name: winget
+    description: Install Visual Studio Code
+    parameters:
+      package:  Microsoft.VisualStudioCode
+
 #  - name: ~/powershell
 #    parameters:
 #      command: |
