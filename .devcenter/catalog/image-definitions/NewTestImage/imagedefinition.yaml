@@ -9,7 +9,3 @@ tasks:
   - name: choco
     parameters:
       package: nodejs
-  #- name: winget
-  #  description: Install Visual Studio Code
-  #  parameters:
-  #    package:  Microsoft.VisualStudioCode
