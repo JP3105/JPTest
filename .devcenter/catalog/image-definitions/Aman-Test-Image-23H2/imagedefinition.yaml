@@ -1,5 +1,5 @@
 $schema: 1.0
-name: BuildTestImage
+name: AmanTestImage-23H2
 image: microsoftwindowsdesktop_windows-ent-cpc_win11-23H2-ent-cpc
 tasks:
   - name: choco
