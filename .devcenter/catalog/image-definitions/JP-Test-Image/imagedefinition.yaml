@@ -27,11 +27,6 @@ tasks:
       package: Git.Git
 
   - name: winget
-    description: Install Chrome
-    parameters:
-      package: Google.Chrome
-      
-  - name: winget
     description: Install Postman
     parameters:
       package: Postman.Postman
