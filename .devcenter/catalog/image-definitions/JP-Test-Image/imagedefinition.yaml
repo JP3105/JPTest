@@ -6,14 +6,49 @@ tasks:
     parameters:
       package: python3
       version: 3.11.0
+      
   - name: choco
     parameters:
       package: nodejs
+      
   - name: winget
     description: Install Visual Studio Code
     parameters:
       package:  Microsoft.VisualStudioCode
+      
   - name: winget
     description: Install Azure Storage Explorer
     parameters:
       package: Microsoft.Azure.StorageExplorer
+      
+  - name: winget
+    description: Install Git
+    parameters:
+      package: Git.Git
+
+  - name: winget
+    description: Install Chrome
+    parameters:
+      package: Google.Chrome
+      
+  - name: winget
+    description: Install Postman
+    parameters:
+      package: Postman.Postman
+      runAsUser: true
+      
+  - name: winget
+    description: Install Azure Function Core Tools
+    parameters:
+      package: Microsoft.Azure.FunctionsCoreTools
+      
+  - name: winget
+    description: Install .Net6 SDK
+    parameters:
+      package: Microsoft.DotNet.SDK.6
+      
+  - name: winget
+    description: Install .Net8 SDK
+    parameters:
+      package: Microsoft.DotNet.SDK.8
+  
