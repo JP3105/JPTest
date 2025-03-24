@@ -46,4 +46,9 @@ tasks:
     description: Install .Net8 SDK
     parameters:
       package: Microsoft.DotNet.SDK.8
+
+  - name: winget
+    description: Install Google Chrome
+    parameters:
+      package: Google.Chrome
   
