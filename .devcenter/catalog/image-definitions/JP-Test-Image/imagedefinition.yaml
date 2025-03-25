@@ -51,4 +51,16 @@ tasks:
     description: Install Google Chrome
     parameters:
       package: Google.Chrome
+
+  - name: winget
+    description: Install Putty
+    parameters:
+      package: Putty.Putty
+
+  - name: winget
+    description: Install Pageant
+    parameters:
+      package: NathanBeals.WinSSH-Pageant
+      
+  
   
