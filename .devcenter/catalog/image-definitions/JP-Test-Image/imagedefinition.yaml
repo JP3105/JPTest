@@ -57,10 +57,5 @@ tasks:
     parameters:
       package: Putty.Putty
 
-  - name: winget
-    description: Install Pageant
-    parameters:
-      package: NathanBeals.WinSSH-Pageant
-      
   
   
